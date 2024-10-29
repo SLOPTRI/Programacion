@@ -11,7 +11,7 @@ public class Ejercicio_11_Boletin1 {
             n_cifras += 1;
         }
         if (n_cifras > 4){
-            System.out.println("El numero debe ser menor a 9999");
+            System.out.println("El número debe ser menor a 9999");
         }
         else{
             System.out.println("La cifras es: "+n_cifras);
