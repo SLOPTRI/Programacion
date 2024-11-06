@@ -7,7 +7,7 @@ public class Ejercicio_12_Boletin1 {
         n = Entrada.LeerInt();
         if (n > 9999){
             System.out.println("El numero es demasiado grande");
-        }else{
+        } else {
             numeroReves = 0;
             while (n > 0){
                 digito = n % 10;
