@@ -25,23 +25,25 @@ public class Ejercicio_18_Boletin1 {
                         System.out.println("La fecha es: " + dia + "/" + mes + "/" + anio);
                     }
                 }
-                else{
+                else {
                     dia += 1;
                     System.out.println("La fecha es: "+dia+"/"+mes+"/"+anio);
                 }
+                break;
             case 2:
                 if (dia < 1 && dia > 28){
                     System.out.println("El dia es incorrecto");
                 }
                 else if (dia == 28){
                     dia = 1;
-                    mes = 3;
+                    mes += 1;
                     System.out.println("La fecha es: "+dia+"/"+mes+"/"+anio);
                 }
-                else{
+                else {
                     dia += 1;
                     System.out.println("La fecha es: "+dia+"/"+mes+"/"+anio);
                 }
+                break;
             default:
                 if (mes > 12){
                     System.out.println("El mes es incorrecto");

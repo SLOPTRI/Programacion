@@ -30,6 +30,7 @@ public class Ejercicio_17_Boletin1 {
                     dia += 1;
                     System.out.println("La fecha es: "+dia+"/"+mes+"/"+anio);
                 }
+                break;
             default:
                 if (mes > 12){
                  System.out.println("El mes es incorrecto");
