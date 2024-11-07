@@ -15,6 +15,8 @@ public class Ejercicio1 {
                 numero = (int)(Math.random()*ancho+2); //Genero un numero aleatorio
                 System.out.print("*"+" ");  // Imprime un asterisco sin salto de línea
                 if (numero > ancho){ //Condicion para hacerle un bocado a la tabla
+                    //Suma uno a la variable iteradora para que asi se ejecute menos veces y sea como un bocado ya que
+                    //imprimira menos veces
                     j += 1;
                 }
             }
